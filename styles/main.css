@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background: #656565;
+    color: #cccccc;
+    font-family: sans-serif;
+}
+
+header {
+    background: #494949;
+    color: #cccccc;
+    padding: 20px 20px 0 20px
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    display: inline;
+    padding: 0 0 0 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    color: #cccccc;
+    background: #363636;
+    padding: 5px 20px;
+}
+
+a {
+    color: #cccccc;
+}
+
+.row {
+    clear: both;
+}
+
+.col {
+    background: #494949;
+    float: left;
+    margin: 1%;
+    width: 31%;
+}
