@@ -1,0 +1,1 @@
+alert("Welcome to suprize's landing page!\nMore JavaScript is coming soon.");
