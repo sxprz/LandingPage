@@ -1,5 +1,8 @@
+const date = new Date();
+
 function about() {
-	alert("© 2022 suprize");
+	let year = date.getFullYear();
+	alert(`© ${year} suprize`);
 }
 
 function contact() {
