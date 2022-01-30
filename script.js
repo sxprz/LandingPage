@@ -1,7 +1,6 @@
-const date = new Date();
+const year = new Date().getFullYear();
 
 function about() {
-	let year = date.getFullYear();
 	alert(`© ${year} suprize`);
 }
 
@@ -14,3 +13,4 @@ function references() {
 }
 
 alert("Welcome to suprize's landing page!\nMore JavaScript is coming soon.");
+document.getElementById("footer0").innerHTML = `${year}`;
